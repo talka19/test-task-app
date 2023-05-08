@@ -1,0 +1,99 @@
+
+.user-list {
+    list-style: none;
+    display: grid;
+    padding: 0px;
+    gap: 16px;
+    margin: 20px auto;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+}
+
+
+
+
+.user_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    object-fit: cover;
+    color: #EBD8FF;
+    font-size: 20px;
+    line-height: 24px;
+    height: 460px;
+    background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+    );
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.user_card_line {
+    border: none;
+    background: #EBD8FF;
+    height: 8px;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+      inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.user_card_frame {
+    position: relative;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.user_card_avatar_frame {
+    position: absolute;
+    top: -4px;
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    transform: translateY(-50%);
+    background-color: #fbf8ff;
+    box-sizing: border-box;
+    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+      inset 0px -2.19582px 4.39163px #ae7be3,
+      inset 0px 4.39163px 3.29372px #fbf8ff;
+}
+
+.user_card_background {
+    height: 214px;
+    background: url('../../images/user_card_logo.png') top 20px left 20px, url('../../images/user_card_bckgrnd.png') center;
+    background-repeat: no-repeat;
+}
+
+.user_card_stat {
+    margin: 16px 0 0;
+    
+}
+
+.user_card_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 14px 28px;
+    min-width: 196px;
+    min-height: 54px;
+    margin-top: 26px;
+    border-radius: 10px;
+}
+
+.user_card_avatar {
+    outline: 8px solid white;
+    width: 62px;
+    border-radius: 50%;
+}

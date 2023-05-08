@@ -1,0 +1,8 @@
+.layout {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+}
