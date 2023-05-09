@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-task-app/static/css/main.7dc6f51a.css",
+    "main.js": "/test-task-app/static/js/main.6368c0ed.js",
+    "static/media/user_card_bckgrnd.png": "/test-task-app/static/media/user_card_bckgrnd.64957231345e16289b81.png",
+    "index.html": "/test-task-app/index.html",
+    "main.7dc6f51a.css.map": "/test-task-app/static/css/main.7dc6f51a.css.map",
+    "main.6368c0ed.js.map": "/test-task-app/static/js/main.6368c0ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc6f51a.css",
+    "static/js/main.6368c0ed.js"
+  ]
+}
