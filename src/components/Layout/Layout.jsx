@@ -4,9 +4,11 @@ import './Layout.css'
 export const Layout = ()=> {
    return(
     <>
-      <header className="layout">
-        <Link to="/">Home</Link>
-        <Link to="/tweets">Tweets</Link>
+      <header className="header">
+        <div className="nav_link">
+          <Link to="/" className="site-nav__link">Home</Link>
+          <Link to="/tweets" className="site-nav__link">Tweets</Link>
+        </div>
       </header>
       <main>
         <Outlet />

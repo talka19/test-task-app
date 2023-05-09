@@ -1,29 +1,6 @@
-// import React, { useEffect, useState } from 'react';
-// import { fetchUsers, updateFollowers } from '../../service/mockapi';
 import './UserCard.css'
 
 export function UserCard({ user, handleFollowClick }) {
-  // const { id, user, tweets, followers, avatar, isFollowing } = userData;
-
-  // const [users, setUsers] = useState([]);
-  
-
-  // useEffect(() => {
-  //   async function getUsers() {
-  //     const data = await fetchUsers();
-  //     setUsers(data);
-  //   }
-  //   getUsers();
-  // }, []);
-
-  // async function handleFollowClick(user) {
-  //   const isFollowing = user.isFollowing;
-  //   const updatedUser = { ...user, followers: isFollowing ? user.followers - 1 : user.followers + 1, isFollowing: !isFollowing };
-  //   await updateFollowers(user.id, updatedUser);
-  //   setUsers(prevUsers => prevUsers.map(prevUser => prevUser.id === user.id ? updatedUser : prevUser));
-  // }
-
-// console.log('key', user)
 
   return (
     <>

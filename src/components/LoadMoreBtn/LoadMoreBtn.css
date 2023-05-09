@@ -1,0 +1,14 @@
+.load_more_btn {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 14px 28px;
+    min-width: 196px;
+    min-height: 54px;
+    margin-top: 26px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(92, 211, 168);
+}

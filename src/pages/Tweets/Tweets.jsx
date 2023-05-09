@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { UserCard } from "../../components/UserCard/UserCard"
-import LoadMoreBtn from "../../components/LoadMoreBtn"
+import LoadMoreBtn from "../../components/LoadMoreBtn/LoadMoreBtn"
 import { useState, useEffect } from 'react';
 import { fetchUsers, updateFollowers } from '../../service/mockapi';
 import './Tweets.css'
@@ -39,8 +39,8 @@ export default function Tweets() {
   return (
     <>
       <h1>Tweets</h1>
-      <nav>
-        <NavLink to="/">Back to Home</NavLink>
+      <nav className="back_page">
+        <NavLink to="/" className='back_page_list'><p><i class="left"></i>Back to Home</p></NavLink>
       </nav>
       <ul className="user-list">
         {users.map(user => (
