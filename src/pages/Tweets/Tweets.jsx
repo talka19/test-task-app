@@ -9,7 +9,7 @@ import './Tweets.css'
 export default function Tweets() {
   const [users, setUsers] = useState([]);
   const [page, setPage] = useState(1);
-  const [noMoreTweets, setNoMoreTweets] = useState(false); // new state variable
+  const [noMoreTweets, setNoMoreTweets] = useState(false);
   
   useEffect(() => {
     async function getUsers() {
