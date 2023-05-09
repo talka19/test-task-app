@@ -1,4 +1,4 @@
-Twitify App!
+**Twitify App!**
 
 
 Twitify is a user-friendly application that lets you seamlessly browse other users' tweets, and follow and unfollow them, all through an elegantly designed interface built with React.
