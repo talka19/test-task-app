@@ -12,8 +12,8 @@ export function UserCard({ user, handleFollowClick }) {
               <div className='user_card_avatar_frame'>
                 <img className='user_card_avatar' src={user.avatar} alt={user}></img>
               </div>
-            <p className='user_card_stat'>{user.tweets.toLocaleString()} Tweets</p>
-            <p className='user_card_stat'>{user.followers.toLocaleString()} Followers</p>
+            <p className='user_card_stat'>{user.tweets.toLocaleString('en-US')} Tweets</p>
+            <p className='user_card_stat'>{user.followers.toLocaleString('en-US')} Followers</p>
             <button className='user_card_button' onClick={()=>handleFollowClick(user)} style={{ backgroundColor: user.isFollowing ? '#5CD3A8' : '#EBD8FF' }}>
               {user.isFollowing ? 'Following' : 'Follow'}
             </button>

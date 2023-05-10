@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom"
+import { NavLink, Outlet } from "react-router-dom"
 import './Layout.css'
 
 export const Layout = ()=> {
@@ -6,8 +6,8 @@ export const Layout = ()=> {
     <>
       <header className="header">
         <div className="nav_link">
-          <Link to="/" className="site-nav__link">Home</Link>
-          <Link to="/tweets" className="site-nav__link">Tweets</Link>
+          <NavLink to="/" className="site-nav__link">Home</NavLink>
+          <NavLink to="/tweets" className="site-nav__link">Tweets</NavLink>
         </div>
       </header>
       <main>

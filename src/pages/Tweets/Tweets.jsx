@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { UserCard } from "../../components/UserCard/UserCard"
 import LoadMoreBtn from "../../components/LoadMoreBtn/LoadMoreBtn"
 import { useState, useEffect } from 'react';
@@ -40,7 +40,7 @@ export default function Tweets() {
     <>
       <h1>Tweets</h1>
       <nav className="back_page">
-        <NavLink to="/" className='back_page_list'><p><i class="left"></i>Back to Home</p></NavLink>
+        <Link to="/" className='back_page_list'><p><i class="left"></i>Back to Home</p></Link>
       </nav>
       <ul className="user-list">
         {users.map(user => (
