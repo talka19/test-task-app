@@ -22,8 +22,8 @@ export default function Tweets() {
         }
       } catch (error) {}  
     }
-    getUsers();
-  }, [page]);
+    getUsers(); // eslint-disable-next-line
+  }, [page]); 
 
   function handleLoadMore() {
     setPage(page + 1);
