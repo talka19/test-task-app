@@ -40,7 +40,7 @@ export default function Tweets() {
     <>
       <h1>Tweets</h1>
       <nav className="back_page">
-        <Link to="/" className='back_page_list'><p><i class="left"></i>Back to Home</p></Link>
+        <Link to="/" className='back_page_list'><p><i className="left"></i>Back to Home</p></Link>
       </nav>
       <ul className="user-list">
         {users.map(user => (
